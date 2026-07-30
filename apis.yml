@@ -1,19 +1,91 @@
 aid: legent
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/legent.png
 name: Legent
-description: Legent is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Legent (listed by Battery Ventures as "Legent Corp.") is an EXITED Battery
+  Ventures investment carried on the firm''s list-of-all-companies page with an asterisk
+  denoting a realized/exited position. Battery publishes no sector, no founding year
+  and no website URL for the entry. An enrichment pass on 2026-07-19 probed every plausible
+  domain (legent.com, legent.io, legent.ai, legent.co, legent.net, legent.us, legentcorp.com,
+  legentsoftware.com, getlegent.com, uselegent.com, legent.dev) and found NO operating
+  company web presence: legent.com is a parked domain-for-sale listing, legent.io is
+  an unrelated GoDaddy-builder placeholder for a legal-efficiency venture with no verifiable
+  Battery connection, legent.ai redirects to the unrelated dmbio.com, and the remainder
+  do not resolve. There is therefore no developer portal, no documentation, no API and
+  no artifact surface to enrich. This record exists to document the negative result so
+  future enrichment runs do not re-spend cycles on it.'
 url: https://raw.githubusercontent.com/api-evangelist/legent/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: dormant
+x-tier-reason: exited-investment-no-web-presence
+x-status: no-live-presence
+x-enrichment:
+  last_run: '2026-07-19'
+  result: no-artifacts-possible
+  reason: No operating web presence found for the entity; no API surface exists to enrich.
+  source: https://www.battery.com/list-of-all-companies/
+  source_listing: 'Legent Corp. *  (asterisk = exited investment; no URL, sector or
+    year published)'
+  domains_probed:
+  - domain: legent.com
+    http: 200
+    finding: parked - "domain name is for sale" listing
+  - domain: legent.io
+    http: 200
+    finding: unrelated GoDaddy-builder placeholder ("Revolutionizing Legal Efficiency");
+      no verifiable link to the Battery portfolio entry
+  - domain: legent.ai
+    http: 200
+    finding: redirects offsite to dmbio.com (unrelated)
+  - domain: legent.co
+    http: 200
+    finding: empty 114-byte response
+  - domain: legent.net
+    http: 0
+    finding: does not resolve
+  - domain: legent.us
+    http: 0
+    finding: does not resolve
+  - domain: legent.dev
+    http: 0
+    finding: does not resolve
+  - domain: legentcorp.com
+    http: 0
+    finding: does not resolve
+  - domain: legentsoftware.com
+    http: 0
+    finding: does not resolve
+  - domain: getlegent.com
+    http: 0
+    finding: does not resolve
+  - domain: uselegent.com
+    http: 0
+    finding: does not resolve
+  disambiguation: Unrelated active entities share the name (a Legent legal-software
+    landing page at legent.io, Legent-branded pharmaceutical products). None were verified
+    as the Battery Ventures portfolio entry; do NOT attach their properties to this
+    record without direct evidence.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Venture Backed
+- Battery Ventures
+- Exited
 apis: []
 maintainers:
 - FN: Kin Lane
