@@ -78,7 +78,7 @@ x-enrichment:
     landing page at legent.io, Legent-branded pharmaceutical products). None were verified
     as the Battery Ventures portfolio entry; do NOT attach their properties to this
     record without direct evidence.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
