@@ -64,27 +64,30 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Legent — listed by Battery Ventures as **"Legent Corp. \*"** — is an **exited** Battery
-Ventures investment. Battery's list-of-all-companies page publishes no sector, no
-founding year and no website URL for the entry.
+> **No live API surface.** Nothing from this company could be reached the last time it was checked: the site is offline, parked or unreachable, or no public API was found. This profile is kept as a historical record and is not maintained or rated.
 
-An enrichment pass on **2026-07-19** probed eleven plausible domains and found **no
-operating company web presence**:
+**Status:** no-live-presence
 
-| Domain | Result |
-|---|---|
-| legent.com | 200 — parked, "domain name is for sale" |
-| legent.io | 200 — unrelated GoDaddy-builder placeholder, no verifiable Battery link |
-| legent.ai | 200 — redirects offsite to dmbio.com (unrelated) |
-| legent.co | 200 — empty 114-byte response |
-| legent.net, legent.us, legent.dev, legentcorp.com, legentsoftware.com, getlegent.com, uselegent.com | do not resolve |
+Legent (listed by Battery Ventures as "Legent Corp.") is an EXITED Battery Ventures investment carried on the firm's list-of-all-companies page with an asterisk denoting a realized/exited position. Battery publishes no sector, no founding year and no website URL for the entry. An enrichment pass on 2026-07-19 probed every plausible domain (legent.com, legent.io, legent.ai, legent.co, legent.net, legent.us, legentcorp.com, legentsoftware.com, getlegent.com, uselegent.com, legent.dev) and found NO operating company web presence: legent.com is a parked domain-for-sale listing, legent.io is an unrelated GoDaddy-builder placeholder for a legal-efficiency venture with no verifiable Battery connection, legent.ai redirects to the unrelated dmbio.com, and the remainder do not resolve. There is therefore no developer portal, no documentation, no API and no artifact surface to enrich. This record exists to document the negative result so future enrichment runs do not re-spend cycles on it.
 
-There is no developer portal, no documentation and **no API surface to enrich**. This
-repo is retained as a documented negative result so future enrichment runs skip it.
+**Areas:** Company · Battery Ventures
 
-> **Disambiguation:** unrelated active entities share the name (a legal-software
-> landing page at legent.io, Legent-branded pharmaceutical products). None were
-> verified as the Battery portfolio entry — do not attach their properties here
-> without direct evidence.
+## Legent on APIs.io (historical record)
 
-Backed by: battery-ventures
+Everything profiled for Legent is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/legent/](https://apis.io/providers/legent/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no live api surface, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Legent: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/legent/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
